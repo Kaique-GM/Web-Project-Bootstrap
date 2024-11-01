@@ -42,6 +42,7 @@ main {
 }
 
 h2 {
+    
     color: #007bff;
     margin-top: 20px;
 }
@@ -71,4 +72,9 @@ footer {
     .navbar-brand {
         font-size: 1.25rem;
     }
+}
+
+.custom-img {
+    max-height: 1111px; /* Defina a altura máxima */
+
 }
