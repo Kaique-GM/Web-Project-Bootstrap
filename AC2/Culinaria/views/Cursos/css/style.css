@@ -1,0 +1,65 @@
+/* Estilo da Navbar */
+.navbar {
+    background-color: #6c757d; /* Cor de fundo da navbar (cinza) */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Cor do texto dos links (branco) */
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffc107; /* Cor do link ativo (amarelo) */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Cor do texto em hover (amarelo) */
+}
+
+/* Estilo dos custom cards */
+.custom-card {
+    border: 1px solid #dee2e6; /* Borda do card */
+    border-radius: 0.5rem; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra do card */
+    transition: transform 0.2s; /* Transição para efeito hover */
+}
+
+.custom-card:hover {
+    transform: translateY(-5px); /* Efeito de elevação no hover */
+}
+
+.card-title {
+    font-weight: bold; /* Estilo para o título do curso */
+    color: #343a40; /* Cor do título */
+}
+
+.card-text {
+    margin-bottom: 1rem; /* Espaçamento para o texto do curso */
+}
+
+/* Estilo dos botões personalizados */
+.btn-custom {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+}
+
+.btn-custom:hover {
+    background-color: #0056b3; /* Cor de fundo do botão em hover */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #f8f9fa; /* Cor de fundo do rodapé */
+    padding: 1rem 0; /* Espaçamento em cima e embaixo do rodapé */
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+}
+
+footer p {
+    margin: 0; /* Remove margens do parágrafo no rodapé */
+    color: #6c757d; /* Cor do texto do rodapé (cinza) */
+}
+
+/* Centraliza o texto do cabeçalho */
+h1 {
+    margin-bottom: 30px; /* Espaçamento abaixo do título */
+    color: #343a40; /* Cor do texto do título */
+}
