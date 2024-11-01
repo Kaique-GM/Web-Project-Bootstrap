@@ -8,24 +8,38 @@ body {
 
 /* Estilo da Navbar */
 .navbar {
-    background-color: #43484d; /* Cor de fundo da navbar (cinza) */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #43484d; /* Cor de fundo da navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 10px 15px; /* Padding ajustado para compactar */
 }
 
 .navbar-brand {
-    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ecf0f1;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #e67e22;
 }
 
 .navbar-nav .nav-link {
-    color: #ffffff; /* Cor do texto dos links (branco) */
+    color: #ecf0f1;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .navbar-nav .nav-link.active {
-    color: #ffffff; /* Cor do link ativo (amarelo) */
+    background-color: #0056b3;
+    color: #ffffff;
+    border-radius: 5px;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #ffffff; /* Cor do texto em hover (amarelo) */
+    background-color: #34495e;
+    color: #ffffff;
+    border-radius: 5px;
 }
 
 /* Estilo do Carrossel */
@@ -76,5 +90,4 @@ footer {
 
 .custom-img {
     max-height: 1111px; /* Defina a altura máxima */
-
 }

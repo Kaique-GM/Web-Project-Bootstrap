@@ -1,65 +1,84 @@
 /* Estilo da Navbar */
 .navbar {
-    background-color: #6c757d; /* Cor de fundo da navbar (cinza) */
+    background-color: #43484d; /* Cor de fundo da navbar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 10px 15px; /* Padding ajustado para compactar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ecf0f1;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #e67e22;
 }
 
 .navbar-nav .nav-link {
-    color: #ffffff; /* Cor do texto dos links (branco) */
+    color: #ecf0f1;
+    padding: 10px 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 .navbar-nav .nav-link.active {
-    color: #ffc107; /* Cor do link ativo (amarelo) */
+    background-color: #0056b3;
+    color: #ffffff;
+    border-radius: 5px;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #ffc107; /* Cor do texto em hover (amarelo) */
+    background-color: #34495e;
+    color: #ffffff;
+    border-radius: 5px;
 }
 
 /* Estilo dos custom cards */
 .custom-card {
-    border: 1px solid #dee2e6; /* Borda do card */
-    border-radius: 0.5rem; /* Bordas arredondadas */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra do card */
-    transition: transform 0.2s; /* Transição para efeito hover */
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
 }
 
 .custom-card:hover {
-    transform: translateY(-5px); /* Efeito de elevação no hover */
+    transform: translateY(-5px);
 }
 
 .card-title {
-    font-weight: bold; /* Estilo para o título do curso */
-    color: #343a40; /* Cor do título */
+    font-weight: bold;
+    color: #343a40;
 }
 
 .card-text {
-    margin-bottom: 1rem; /* Espaçamento para o texto do curso */
+    margin-bottom: 1rem;
 }
 
-/* Estilo dos botões personalizados */
 .btn-custom {
-    background-color: #007bff; /* Cor de fundo do botão */
-    color: #ffffff; /* Cor do texto do botão */
+    background-color: #007bff;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
 }
 
 .btn-custom:hover {
-    background-color: #0056b3; /* Cor de fundo do botão em hover */
+    background-color: #0056b3;
 }
 
 /* Estilo do rodapé */
 footer {
-    background-color: #f8f9fa; /* Cor de fundo do rodapé */
-    padding: 1rem 0; /* Espaçamento em cima e embaixo do rodapé */
-    margin-top: 20px; /* Espaçamento acima do rodapé */
+    background-color: #43484d;
+    padding: 1rem 0;
+    margin-top: 20px;
 }
 
 footer p {
-    margin: 0; /* Remove margens do parágrafo no rodapé */
-    color: #6c757d; /* Cor do texto do rodapé (cinza) */
+    margin: 0;
+    color: white;
 }
 
 /* Centraliza o texto do cabeçalho */
 h1 {
-    margin-bottom: 30px; /* Espaçamento abaixo do título */
-    color: #343a40; /* Cor do texto do título */
+    margin-bottom: 30px;
+    color: #343a40;
 }
